@@ -7,6 +7,7 @@
   // Depending on true or false, provide feedback
 
   //Question 1
+  function questionOne() {
   var gameTally = 0;
   var answerTwo = prompt('Do you want to play a game?');
   var userAnswer = ('yes');
@@ -62,6 +63,8 @@
   } else {
     alert('Not even close, BUD!');
   }
+}
+questionOne();
 
   //Question 5
   var food = prompt('What are my favorite types of food?'); // prompting the user with a string message.
@@ -178,6 +181,6 @@
       alert('You got them all wrong...');
     }
   }
-  
+
 score(gameTally);
 console.log(gameTally);
